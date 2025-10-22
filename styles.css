@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /*background-color: #20293A;*/
+    background-color: #121727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    color: #E3E8EF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-background {
+    background-color: #20293A;
+    width: 495px;
+    min-height: 204px;
+    border-radius: .7rem;
+    @media (max-width:767px) {
+        max-width: 94vw;
+        margin: 0 auto;
+    }   
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/resources/bg-image-random-quote.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 495px;
+    min-height: 204px;
+    justify-content: center;
+    align-items: center;
+    border-radius: .7rem;
+    @media (max-width:767px) {
+        max-width: 94vw;
+        margin: 0 auto;
+    }  
+}
+
+.tags-container {
+    display: flex;
+    gap: .5rem;
+    padding-bottom: .7rem;
+}
+.quote-author {
+    font-size: 1rem;
+    padding-top: 2.1rem;
+    padding-bottom: .7rem;
+}
+.quote-tags {
+    border: 1px solid #AEB0FF;
+    border-radius: .8rem;
+    color: #AEB0FF;
+    font-size: 0.625rem;
+    padding: .2rem .7rem;
+    align-items: center;
+    /*justify-content: center;*/
+}
+.quote {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .8rem 2rem;
+    padding-bottom: 2.1rem;
+}
+
+.buttons-container {
+    margin-top: .5rem;
+    padding: .5rem 0;
+    display: flex;
+    gap: .7rem;    
+}
+button {
+    all: unset;
+    display: flex;
+    background-color: #20293A;
+    padding: .5rem .7rem;
+    border-radius: .7rem;
+    align-items: center;
+    gap: .4rem;
+    font-size: .8rem;
+}
+
+/* 
+#121727
+#20293a
+*/
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
