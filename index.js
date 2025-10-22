@@ -24,8 +24,6 @@ fetch(
         newTag.textContent = element
 
         tagsContainer.appendChild(newTag);
-        
-        console.log(element);
     });
       
     }
